@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container
+{
+    background-color: hsl(0, 0%, 100%);
+    height: 400px;
+    width: 250px;
+    border-radius: 15px;
+}
+img{
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+    width: 230px;
+    height: 220px;
+    border-radius: 10px;
+}
+.tex{
+    padding-left: 25px;
+    padding-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.tex p
+{
+    font-size: 17px;
+}
+.tex1{
+    position: relative;
+    padding-left: 25px;
+    padding-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align:center;
+}
+.tex1 p{
+    font-size: 15px;
+    color: darkgray;
+}
